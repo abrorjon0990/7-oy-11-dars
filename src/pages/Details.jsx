@@ -58,10 +58,10 @@ const Details = () => {
         <h2 className="text-2xl mb-5">Price Trend (Last 30 Days)</h2>
         <Chart options={chartOptions} series={chartSeries} type="line" height={500} width={1350} />
         <div className="flex justify-between">
-          <button className=" hover:bg-blue-900 bg-blue-700 px-2 py-4 border-2 border-solid rounded-md">24 Hours</button>
-          <button className=" hover:bg-blue-500 px-2 py-4 border-2 border-solid rounded-md">30 Days</button>
-          <button className=" hover:bg-blue-500 px-2 py-4 border-2 border-solid rounded-md">3 Monthsc</button>
-          <button className=" hover:bg-blue-500 px-2 py-4 border-2 border-solid rounded-md">1 Year</button>
+          <button className=" duration-300 ease-linear hover:bg-blue-900 bg-blue-700 px-2 py-4 border-2 border-solid rounded-md">24 Hours</button>
+          <button className=" duration-300 ease-linear hover:bg-blue-500 px-2 py-4 border-2 border-solid rounded-md">30 Days</button>
+          <button className=" duration-300 ease-linear hover:bg-blue-500 px-2 py-4 border-2 border-solid rounded-md">3 Monthsc</button>
+          <button className=" duration-300 ease-linear hover:bg-blue-500 px-2 py-4 border-2 border-solid rounded-md">1 Year</button>
         </div>
       </div>
     </div>
