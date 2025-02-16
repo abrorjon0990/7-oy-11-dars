@@ -20,7 +20,7 @@ const Details = () => {
       .catch((err) => console.log(err));
   }, [id]);
 
-  if (!coin || cesh.length === 0) return <h1>Loading...</h1>;
+  if (!coin || cesh.length === 0) return <h1 className="text-center text-6xl mt-[200px]"><mark>Yuklanmoqda 😊...</mark></h1>;
 
   const chartOptions = {
     chart: {
