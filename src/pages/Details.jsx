@@ -26,7 +26,7 @@ const Details = () => {
     chart: {
       type: "line",
       background: "#14161a",
-      foreColor: "#fff",
+      foreColor: "#black",
     },
     xaxis: {
       categories: cesh.map((data) => new Date(data[0]).toLocaleDateString()),
