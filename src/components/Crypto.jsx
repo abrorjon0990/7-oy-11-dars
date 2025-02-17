@@ -33,7 +33,7 @@ const CryptoTable = () => {
     >
       <Table>
         <TableHead>
-          <TableRow sx={{ backgroundColor: "#222" }}>
+          <TableRow sx={{ backgroundColor: " #222" }}>
             <TableCell sx={{ color: "white", fontWeight: "bold", fontSize: "20px" }}>Coin</TableCell>
             <TableCell sx={{ color: "white", fontWeight: "bold", fontSize: "20px" }} align="right">Price</TableCell>
             <TableCell sx={{ color: "white", fontWeight: "bold", fontSize: "20px" }} align="right">24h Change</TableCell>
@@ -43,10 +43,11 @@ const CryptoTable = () => {
         <TableBody>
           {coins.slice(page * 10, page * 10 + 10).map((coin) => (
             <TableRow 
+            
               key={coin.id} 
               className="cursor-pointer" 
-              onClick={() => navigate(`/details/${coin.id}`)} // Coin sahifasiga o'tish
-              sx={{ cursor: "pointer" }} // Hover effekti
+              onClick={() => navigate(`/details/${coin.id}`)} 
+              sx={{ cursor: "pointer" }} 
             >
               <TableCell sx={{ display: "flex", alignItems: "center", fontSize: "25px" }}>
                 <img src={coin.image} alt={coin.name} width="60" style={{ marginRight: 10 }} />

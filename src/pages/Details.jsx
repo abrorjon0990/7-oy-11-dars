@@ -46,7 +46,7 @@ const Details = () => {
 
   return (
     <div className="bg-[#14161a] flex text-white p-10">
-      <div className=" w-[400px]">
+      <div className=" bg-[#16171A] w-[400px]">
         <img className="pt-[50px] ml-[100px]" src={coin.image.large} alt={coin.name} width="200" height="200" />
         <h1 className="text-5xl ml-[80px] mt-10">{coin.name} ({coin.symbol.toUpperCase()})</h1>
         <p className="font-normal mb-10 mt-10 w-[600px] text-xl">{coin.description.en.split(". ")[0]}.</p>
