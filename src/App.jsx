@@ -5,7 +5,7 @@ import Details from "./pages/Details";
 import MainLayout from "./layout/MainLayout";
 
 function App() {
-  return (
+  return  (
     <div className="max-w-[1800px] mx-auto">
       <Routes>
         <Route
